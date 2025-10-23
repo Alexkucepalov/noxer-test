@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.84b005b8.css",
+    "main.js": "./static/js/main.6b9dc1e0.js",
+    "static/js/453.aa094f90.chunk.js": "./static/js/453.aa094f90.chunk.js",
+    "static/media/Rectangle 98.png": "./static/media/Rectangle 98.1fd4fdd7dd431cd1b271.png",
+    "static/media/catalog.svg": "./static/media/catalog.a500969dd47db651856a5918efc47cbc.svg",
+    "static/media/account.svg": "./static/media/account.d605af2f0e376d543fec5cb4a2e598e1.svg",
+    "static/media/cart.svg": "./static/media/cart.5b0de04ca930d7679ada9709995de4c4.svg",
+    "static/media/home.svg": "./static/media/home.3b78817639ba504a3b5129b092e2302a.svg",
+    "index.html": "./index.html",
+    "static/media/icon.svg": "./static/media/icon.508847b5db88dfbd6d301dadc195d861.svg",
+    "static/media/favorite.svg": "./static/media/favorite.c7d86c547bbd3841382e426204cbc6c4.svg",
+    "main.84b005b8.css.map": "./static/css/main.84b005b8.css.map",
+    "main.6b9dc1e0.js.map": "./static/js/main.6b9dc1e0.js.map",
+    "453.aa094f90.chunk.js.map": "./static/js/453.aa094f90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84b005b8.css",
+    "static/js/main.6b9dc1e0.js"
+  ]
+}

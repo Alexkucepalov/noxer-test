@@ -1,0 +1,68 @@
+.promo-banner {
+  position: relative;
+  width: calc(100% - 10px);
+  height: 200px;
+  margin: 16px 5px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.banner-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.promo-pagination {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 3;
+}
+
+.promo-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.promo-dot.active {
+  background: white;
+  transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+  .promo-banner {
+    height: 180px;
+    margin: 12px 5px;
+    border-radius: 16px;
+  }
+  
+  .promo-pagination {
+    bottom: 12px;
+  }
+  
+  .promo-dot {
+    width: 6px;
+    height: 6px;
+  }
+}
+
+@media (max-width: 360px) {
+  .promo-banner {
+    height: 160px;
+    margin: 10px 5px;
+    border-radius: 12px;
+  }
+}
